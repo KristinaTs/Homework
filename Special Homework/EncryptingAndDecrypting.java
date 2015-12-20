@@ -112,7 +112,7 @@ public class Code {
 		return newArr;
 	}
 	public static void main(String[] args) {
-		String str="tgaqafaf";
+		String str="aaaaaa";
 		if(str.length()%2!=0){
 		str=str+'a';
 		}
