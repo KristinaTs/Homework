@@ -52,7 +52,7 @@ public class Horse {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		char [][] arr = new char [0][0];
-		System.out.println("Въведете големината на масива:");
+		System.out.println("Input the size of the matrix:");
 		int rows=scan.nextInt();
 		int cols=scan.nextInt();
 		if(rows<0 && cols<0){
@@ -62,7 +62,7 @@ public class Horse {
 			arr = new char [rows][cols];
 		}
 		
-		System.out.println("Въведете координатите на точката:");
+		System.out.println("Input the coordiantes:");
 		int firstCoordinate=scan.nextInt();
 		int secondCoordinate=scan.nextInt();
 		
