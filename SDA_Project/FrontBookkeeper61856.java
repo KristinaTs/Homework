@@ -22,7 +22,7 @@ public class FrontBookkeeper61856 implements IFrontBookkeeper{
 		news[16]="soldiers 2..3 from division_Dimitroff died heroically ";
 		news[17]="show regiment_Stoykov";
 		news[18]="show brigade_Ignatov";
-		news[19]= "show division_Dimitroff";
+		news[19]= "show division_Dimitrof";
 		 return news[0];
 	 }
 	

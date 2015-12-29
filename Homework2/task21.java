@@ -6,22 +6,22 @@ public class task21 {
 		Scanner scan = new Scanner(System.in);
 		int cardNum = scan.nextInt();
 		String strenght = "2";
-		String color = "ñïàòèÿ";
+		String color = "Å„ÄÅ•ÅˆÄË™";
 		if (cardNum > 0 && cardNum <= 52) {
 			for (int i = cardNum; i <= 52; i++) {
 				int temp = i;
 				switch (temp % 4) {
 				case 1:
-					color = "Ñïàòèÿ, ";
+					color = "ÅƒÄÅ•ÅˆÄË™, ";
 					break;
 				case 2:
-					color = "Êàðî, ";
+					color = "Ä˜Å•Ä‘Ã®, ";
 					break;
 				case 3:
-					color = "Êóïà, ";
+					color = "Ä˜Ã³ÄÅ•, ";
 					break;
 				case 0:
-					color = "Ïèêà, ";
+					color = "ÄŽÄÄ™Å•, ";
 					break;
 				}
 				switch (((temp - 1) / 4) + 2) {
@@ -62,7 +62,7 @@ public class task21 {
 					strenght = "K ";
 					break;
 				case 14:
-					strenght = "À ";
+					strenght = "A ";
 					break;
 				}
 				System.out.println(strenght + color);
