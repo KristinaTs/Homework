@@ -1,0 +1,4 @@
+
+public enum InstrumentType {
+STRUNNI,UDARNI,DUHOVI,KLAVISHNI,ELEKTRONNI
+}
